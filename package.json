@@ -1,0 +1,24 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "Manage your passwords locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VijayKumarTiwari/password-manager.git"
+  },
+  "author": "Vijay Kumar Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VijayKumarTiwari/password-manager/issues"
+  },
+  "homepage": "https://github.com/VijayKumarTiwari/password-manager#readme",
+  "dependencies": {
+    "node-persist": "2.0.7",
+    "yargs": "6.4.0"
+  }
+}
